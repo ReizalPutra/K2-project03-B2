@@ -163,6 +163,127 @@ li a {
 
 /* //* ================================================================== */
 
+/* //! Profile */
+.container-profile {
+  margin-top: 2%;
+  margin-left: 7%;
+  margin-bottom: 10%;
+  width: 167vh;
+  height: 125vh;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 24px rgba(0, 10, 44, 0.15);
+  border-radius: 15px;
+  display: flex;
+}
+
+.profile-image {
+  padding: 5%;
+}
+
+.profile-list {
+  padding-left: 5%;
+  padding-top: 7%;
+}
+
+.my-profile {
+  display: block;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 1.5%;
+}
+
+.form-user {
+  padding-top: 10%;
+}
+
+.profile-user {
+  margin-top: 10%;
+  margin-left: 8%;
+}
+
+.profile-telp,
+.profile-name,
+.profile-email,
+.profile-toko,
+.profile-male,
+.profile-tgl {
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.profile-female {
+  margin-left: 10%;
+}
+
+.label-user,
+.label-telp,
+.label-name,
+.label-email,
+.label-toko,
+.label-jk,
+.label-tgl {
+  padding-top: 10%;
+  color: #9f9f9f;
+}
+
+.label-male,
+.label-female {
+  padding-left: 2.5%;
+}
+
+.profile-telp,
+.profile-name,
+.profile-email,
+.profile-toko,
+.profile-tgl {
+  height: 6vh;
+  width: 60vh;
+  padding-left: 2%;
+  border: 1px solid #9f9f9f;
+  border-radius: 5px;
+}
+
+.profile-name::placeholder,
+.profile-email::placeholder,
+.profile-telp::placeholder,
+.profile-toko::placeholder {
+  color: #000000;
+  font-size: 14px;
+}
+
+.profile-tgl {
+  position: relative;
+  align-items: center;
+  display: flex;
+}
+
+.input-tgl {
+  color: #000000;
+  font-size: 14px;
+}
+
+.svg-date {
+  position: absolute;
+  right: 2vh;
+}
+
+.btn-submit {
+  margin-left: 5%;
+  margin-top: 3%;
+  width: 20vh;
+  height: 5vh;
+  background: #0d6efd;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 400;
+}
+/* //? End Profile */
+
+/* //* ================================================================== */
+
 /* //! Footer */
 .footer {
   position: relative;
