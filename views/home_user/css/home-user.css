@@ -78,7 +78,22 @@ li a {
 }
 
 .cart-box {
+  position: relative;
   margin-left: 420px;
+}
+
+.badge-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -2vh;
+  right: -7vh;
+  width: 4vh;
+  height: 4vh;
+  border-radius: 20px;
+  color: #ffffff;
+  background-color: #ff2e2e;
 }
 
 .btn-cart {
