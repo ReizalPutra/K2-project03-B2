@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shop Profile Page</title>
     <!-- //* File CSS -->
-    <link rel="stylesheet" href="css/profile.css" />
+    <link rel="stylesheet" href="./css/profile.css" />
 
     <!-- //* Box Icons -->
     <link
@@ -100,7 +100,145 @@
 
     <!-- //! Container Profile -->
 
-    <!-- ISI DISINI -->
+    <div class="container-profile">
+      <div class="profile-image">
+        <div class="foto-profile">
+          <img src="../../assets/images/Group 64.png" alt="">
+          <div class="edit-profile">
+            <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2 20C1.45 20 0.979002 19.804 0.587002 19.412C0.195002 19.02 -0.000664969 18.5493 1.69779e-06 18V2C1.69779e-06 1.45 0.196001 0.979002 0.588001 0.587002C0.980001 0.195002 1.45067 -0.000664969 2 1.69779e-06H10L16 6V9.1L8 17.075V20H2ZM10 20V17.875L15.15 12.7L17.3 14.8L12.125 20H10ZM18.025 14.1L15.9 11.975L16.6 11.275C16.8 11.075 17.0417 10.975 17.325 10.975C17.6083 10.975 17.8417 11.075 18.025 11.275L18.725 12C18.9083 12.2 19 12.4377 19 12.713C19 12.9883 18.9083 13.2173 18.725 13.4L18.025 14.1ZM9 7H14L9 2V7Z" fill="white"/>
+              </svg>
+              <span class="text-edit">Edit Profile</span>
+          </div>
+        </div>
+      </div>
+      <div class="profile-list">
+        <span class="my-profile">Profile Saya</span>
+        <span class="my-profile-2"
+          >Kelola informasi profil Anda untuk mengontrol, melindungi dan
+          mengamankan akun</span
+        >
+
+        <form action="">
+          <table>
+            <div class="form-user">
+              <label for="username" class="label-user">Username </label>
+              <span class="profile-user">nfl-56</span>
+            </div>
+            <tr>
+              <td>
+                <label for="telp" class="label-name">Nama</label>
+              </td>
+              <td>
+                <input
+                  type="text"
+                  name=""
+                  id="telp"
+                  class="profile-name"
+                  placeholder="Naufal Hadi Putra"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="telp" class="label-telp">Telephone</label>
+              </td>
+              <td>
+                <input
+                  type="text"
+                  name=""
+                  id="telp"
+                  class="profile-telp"
+                  placeholder="0813 6778 9872"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="email" class="label-email">E-mail</label>
+              </td>
+              <td>
+                <input
+                  type="text"
+                  name=""
+                  id="email"
+                  class="profile-email"
+                  placeholder="naufal@gmail.com"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="toko" class="label-toko">Nama Toko</label>
+              </td>
+              <td>
+                <input
+                  type="text"
+                  name=""
+                  id="toko"
+                  class="profile-toko"
+                  placeholder="Tokopedia"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="" class="label-jk">Jenis Kelamin</label>
+              </td>
+              <td>
+                <input
+                  type="radio"
+                  name="jk"
+                  id="male"
+                  value="male"
+                  class="profile-male"
+                  checked
+                />
+                <label for="male" class="label-male"> Laki - Laki</label>
+                <input
+                  type="radio"
+                  name="jk"
+                  id="female"
+                  value="female"
+                  class="profile-female"
+                />
+                <label for="female" class="label-female"> Perempuan</label>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="tgl" class="label-tgl">Tanggal Lahir</label>
+              </td>
+              <td>
+                <div class="profile-tgl">
+                  <span class="input-tgl">24 November 1916</span>
+                  <div class="svg-date">
+                    <svg
+                      width="20"
+                      height="24"
+                      viewBox="0 0 24 28"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M6.66667 16.6665C6.28889 16.6665 5.972 16.5385 5.716 16.2825C5.46 16.0265 5.33245 15.7101 5.33334 15.3332C5.33334 14.9554 5.46134 14.6385 5.71734 14.3825C5.97334 14.1265 6.28978 13.9989 6.66667 13.9998C7.04445 13.9998 7.36134 14.1278 7.61734 14.3838C7.87334 14.6398 8.00089 14.9563 8 15.3332C8 15.7109 7.872 16.0278 7.616 16.2838C7.36 16.5398 7.04356 16.6674 6.66667 16.6665ZM12 16.6665C11.6222 16.6665 11.3053 16.5385 11.0493 16.2825C10.7933 16.0265 10.6658 15.7101 10.6667 15.3332C10.6667 14.9554 10.7947 14.6385 11.0507 14.3825C11.3067 14.1265 11.6231 13.9989 12 13.9998C12.3778 13.9998 12.6947 14.1278 12.9507 14.3838C13.2067 14.6398 13.3342 14.9563 13.3333 15.3332C13.3333 15.7109 13.2053 16.0278 12.9493 16.2838C12.6933 16.5398 12.3769 16.6674 12 16.6665ZM17.3333 16.6665C16.9556 16.6665 16.6387 16.5385 16.3827 16.2825C16.1267 16.0265 15.9991 15.7101 16 15.3332C16 14.9554 16.128 14.6385 16.384 14.3825C16.64 14.1265 16.9564 13.9989 17.3333 13.9998C17.7111 13.9998 18.028 14.1278 18.284 14.3838C18.54 14.6398 18.6676 14.9563 18.6667 15.3332C18.6667 15.7109 18.5387 16.0278 18.2827 16.2838C18.0267 16.5398 17.7102 16.6674 17.3333 16.6665ZM2.66667 27.3332C1.93334 27.3332 1.30534 27.0718 0.782669 26.5492C0.260002 26.0265 -0.000886625 25.3989 2.26373e-06 24.6665V5.99984C2.26373e-06 5.2665 0.261336 4.6385 0.784002 4.11584C1.30667 3.59317 1.93422 3.33228 2.66667 3.33317H4V0.666504H6.66667V3.33317H17.3333V0.666504H20V3.33317H21.3333C22.0667 3.33317 22.6947 3.5945 23.2173 4.11717C23.74 4.63984 24.0009 5.26739 24 5.99984V24.6665C24 25.3998 23.7387 26.0278 23.216 26.5505C22.6933 27.0732 22.0658 27.3341 21.3333 27.3332H2.66667ZM2.66667 24.6665H21.3333V11.3332H2.66667V24.6665Z"
+                        fill="#9F9F9F"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="1"></td>
+              <td>
+                <button class="btn-submit">Simpan</button>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </div>
 
     <!-- //? End Container Profile -->
 

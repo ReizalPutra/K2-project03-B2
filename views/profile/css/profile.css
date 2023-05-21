@@ -1,14 +1,14 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
+  
 body {
   font-family: "Roboto", sans-serif;
   background-color: #f6f6f6;
 }
-
+  
 /* //! Navbar */
 .navbar-1 {
   width: 100%;
@@ -18,7 +18,7 @@ body {
   padding-top: 1%;
   padding-right: 4%;
 }
-
+  
 .navbar-2 {
   width: 100%;
   height: 60px;
@@ -27,66 +27,66 @@ body {
   padding-top: 1.5vh;
   padding-right: 4%;
 }
-
+  
 nav .ul-1 {
   position: relative;
   display: flex;
 }
-
+  
 nav .ul-2 {
   display: flex;
 }
-
+  
 .navbar-1 li {
   list-style: none;
   color: #ffffff;
   margin-right: 2%;
 }
-
+  
 .navbar-2 li {
   list-style: none;
   color: #ffffff;
   margin-right: 2%;
 }
-
+  
 li a {
   text-decoration: none;
   color: #ffffff;
   font-weight: 400;
 }
-
-.shop {
-  font-size: 36px;
-  font-weight: 700;
-  color: #0d6efd;
-}
-
+  
+  .shop {
+    font-size: 36px;
+    font-weight: 700;
+    color: #0d6efd;
+  }
+  
 .devider {
   width: 0.2vh;
   height: 6vh;
   background: #0d6efd;
   margin-right: 3vh;
 }
-
+  
 .text-wishlist {
   margin-top: 0.5vh;
   font-size: 30px;
   font-weight: 400;
   color: #0d6efd;
 }
-
+  
 .search-box {
   position: relative;
   margin-left: 48vh;
 }
-
+  
 .input-search {
   height: 40px;
   width: 400%;
   border-radius: 7px;
   border: 2px solid #0d6efd;
 }
-
+  
 .btn-search {
   position: absolute;
   display: flex;
@@ -99,22 +99,22 @@ li a {
   width: 40%;
   height: 75%;
 }
-
+  
 .btn-search .bx-search {
   color: #fffcfc;
   font-size: 18px;
 }
-
+  
 .btn-cart .bx-cart-alt {
   color: #fffcfc;
   font-size: 28px;
 }
-
+  
 .dropdown {
   margin-left: 105vh;
   position: relative;
 }
-
+  
 .dropdown-child {
   width: 170px;
   height: 200px;
@@ -128,24 +128,24 @@ li a {
   display: none;
   z-index: 1;
 }
-
+  
 .dropdown-child li {
   margin-top: 2.5vh;
 }
-
+  
 .dropdown-child a {
   color: #000000;
   text-decoration: none;
 }
-
+  
 .active {
   color: #ff2e2e;
 }
-
+  
 .dropdown:hover .dropdown-child {
   display: block;
 }
-
+  
 .btn-user {
   display: flex;
   justify-content: end;
@@ -154,15 +154,165 @@ li a {
   border: none;
   font-weight: 400;
 }
-
+  
 .svg-user {
   margin-left: 1vh;
   width: 4vh;
 }
 /* //? End Navbar */
-
+  
 /* //* ================================================================== */
+  
+/* //! Profile */
+.container-profile {
+  margin: 5% auto;
+  width: 167vh;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 24px rgba(0, 10, 44, 0.15);
+  border-radius: 15px;
+  display: flex;
+  padding: 2%;
+}
+  
+.profile-image {
+  padding: 5%;
+  margin-top: 10%;
+}
+.foto-profile{
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+image{
+  position: relative;
+}
+.edit-profile{
+  position: absolute;
+  background: rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 25%;
+  text-align: center;
+  padding: 1vh;
+  bottom: 0;
+  cursor: pointer;
+}
+.edit-profile span{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+.profile-list {
+  padding-left: 5%;
+  padding-top: 3%;
+}
+  
+.my-profile {
+  display: block;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 1.5%;
+}
+  
+.form-user {
+  padding-top: 10%;
+}
+  
+.profile-user {
+  margin-top: 10%;
+  margin-left: 8%;
+}
+  
+.profile-telp,
+.profile-name,
+.profile-email,
+.profile-toko,
+.profile-male,
+.profile-tgl {
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+  
+.profile-female {
+  margin-left: 10%;
+}
+  
+.label-user,
+.label-telp,
+.label-name,
+.label-email,
+.label-toko,
+.label-jk,
+.label-tgl {
+  color: #9f9f9f;
+  display: inline-block;
+  width: 20vh;
+  text-align: right;
+}
+  
+.label-male,
+.label-female {
+  padding-left: 2.5%;
+}
+  
+.profile-telp,
+.profile-name,
+.profile-email,
+.profile-toko,
+.profile-tgl {
+  height: 6vh;
+  width: 60vh;
+  padding-left: 2%;
+  border: 1px solid #9f9f9f;
+  border-radius: 5px;
+}
+  
+.profile-name::placeholder,
+.profile-email::placeholder,
+.profile-telp::placeholder,
+.profile-toko::placeholder {
+  color: #000000;
+  font-size: 14px;
+}
+  
+.profile-tgl {
+  position: relative;
+  align-items: center;
+  display: flex;
+}
+  
+.input-tgl {
+  color: #000000;
+  font-size: 14px;
+}
+  
+.svg-date {
+  position: absolute;
+  right: 2vh;
+}
+  
+.btn-submit {
+  margin-left: 5%;
+  margin-top: 3%;
+  width: 20vh;
+  height: 5vh;
+  background: #0d6efd;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 400;
+}
 
+   
+
+/* //? End Profile */
+  
+/* //* ================================================================== */
+  
 /* //! Footer */
 .footer {
   position: relative;
@@ -173,19 +323,19 @@ li a {
   background: #0d6efd;
   padding-top: 2%;
 }
-
+  
 footer .text-shop {
   margin-left: 1%;
   font-size: 36px;
   font-weight: 700;
   color: #ffffff;
 }
-
+  
 footer .svg-footer {
   position: absolute;
   top: 35%;
 }
-
+  
 footer .svg-fb,
 .svg-ig,
 .svg-wa {
@@ -193,7 +343,7 @@ footer .svg-fb,
   width: 10vh;
   height: 5vh;
 }
-
+  
 footer .copy-right {
   position: absolute;
   bottom: 10%;
@@ -202,7 +352,7 @@ footer .copy-right {
   font-weight: 700;
   color: #ffffff;
 }
-
+  
 footer a {
   text-decoration: none;
 }
