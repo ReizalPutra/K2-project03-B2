@@ -116,8 +116,8 @@ li a {
 }
 
 .dropdown-child {
-  width: 170px;
-  height: 200px;
+  width: 24.5vh;
+  height: 30.3vh;
   position: absolute;
   top: 15;
   background-color: white;
@@ -163,7 +163,7 @@ li a {
 
 /* //* ================================================================== */
 
-/* //! Cart Product */
+/* //! Cart */
 
 .container-cart{
   width: 90%;
@@ -174,8 +174,6 @@ li a {
   border-radius: 15px;
   padding: 5%;
 }
-/* .container-cart label{
-  border: 1px solid #9F9F9F;
 
 } */
 .container-cart input{
@@ -265,6 +263,8 @@ button{
   color: #FF2E2E;
   background: white;
 }
+/* //? End Cart */
+
 /* //* ================================================================== */
 
 /* //! Product */
