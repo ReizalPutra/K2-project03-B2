@@ -1,0 +1,255 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: #e5e5e5;
+}
+
+.boxDaftar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 100vh;
+  height: 450px;
+  left: 50vh;
+  top: 20vh;
+
+  background: #ffff;
+  box-shadow: 0px 4px 24px rgba(23, 36, 182, 0.15);
+  border-radius: 17px;
+}
+.imgSC {
+  width: 50vh;
+  height: 450px;
+
+  background-image: url(assets/images/images.png);
+}
+.groupInput {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 50vh;
+  height: 450px;
+  margin-left: 50vh;
+  left: 0vh;
+  top: 0vh;
+  background: #ffff;
+  box-shadow: 0px 4px 24px rgba(23, 36, 182, 0.15);
+  border-radius: 17px;
+}
+.textDaftar {
+  position: absolute;
+  width: 90px;
+  height: 38px;
+  margin-left: 2vh;
+  left: 0px;
+  top: 0px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  /* identical to box height  */
+  color: #0d6efd;
+}
+.textUsername {
+  position: absolute;
+  width: 90px;
+  height: 38px;
+  margin-left: 2vh;
+  left: 0px;
+  margin-top: 10vh;
+  top: 0px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 38px;
+  color: #0d6efd;
+}
+.inputUsername {
+  box-sizing: border-box;
+  position: absolute;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  width: 48vh;
+  height: 5vh;
+  margin-left: 2vh;
+  left: 0px;
+  margin-top: 15vh;
+  top: 0px;
+  border: 2px solid #c4c4c4;
+  border-radius: 7px;
+}
+.masukanUsername {
+  margin-left: 2vh;
+  left: 0px;
+  margin-top: 1vh;
+  top: 0px;
+}
+.textEmail {
+  position: absolute;
+  width: 90px;
+  height: 38px;
+  margin-left: 2vh;
+  left: 0px;
+  margin-top: 20vh;
+  top: 0px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 38px;
+  color: #0d6efd;
+}
+.inputEmail {
+  box-sizing: border-box;
+  position: absolute;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  width: 48vh;
+  height: 5vh;
+  margin-left: 2vh;
+  left: 0px;
+  margin-top: 25vh;
+  top: 0px;
+  border: 2px solid #c4c4c4;
+  border-radius: 7px;
+}
+.masukanEmail {
+  margin-left: 2vh;
+  left: 0px;
+  margin-top: 1vh;
+  top: 0px;
+}
+.textPassword {
+  position: absolute;
+  width: 90px;
+  height: 38px;
+  margin-left: 2vh;
+  left: 0px;
+  margin-top: 30vh;
+  top: 0px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 38px;
+  color: #0d6efd;
+}
+.inputPassword {
+  box-sizing: border-box;
+  position: absolute;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  width: 48vh;
+  height: 5vh;
+  margin-left: 2vh;
+  left: 0px;
+  margin-top: 35vh;
+  top: 0px;
+  border: 2px solid #c4c4c4;
+  border-radius: 7px;
+}
+.masukanPassword {
+  margin-left: 2vh;
+  left: 0px;
+  margin-top: 1vh;
+  top: 0px;
+}
+.textKonfirmasi {
+  position: absolute;
+  width: 80px;
+  height: 38px;
+  margin-left: 2vh;
+  left: 0px;
+  margin-top: 40vh;
+  top: 0px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 38px;
+  color: #0d6efd;
+}
+.inputKonfirmasi {
+  box-sizing: border-box;
+  position: absolute;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  width: 48vh;
+  height: 5vh;
+  margin-left: 2vh;
+  left: 0px;
+  top: 45vh;
+  border: 2px solid #c4c4c4;
+  border-radius: 7px;
+}
+.masukanKonfirmasi {
+  margin-left: 2vh;
+  left: 0px;
+  margin-top: 1vh;
+  top: 0px;
+}
+.box-agree {
+  box-sizing: border-box;
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  margin-left: 2vh;
+  left: 0vh;
+  top: 50vh;
+  border: 1px solid #c4c4c4;
+  border-radius: 3px;
+}
+.agree {
+  position: absolute;
+  width: 50px;
+  height: 19px;
+  margin-left: 8vh;
+  left: 0vh;
+  top: 50vh;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* /* identical to box height * */
+  color: #c4c4c4;
+}
+.button {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48vh;
+  height: 60px;
+  left: 2vh;
+  top: 57vh;
+  background: #0d6efd;
+  border-radius: 7px;
+}
+.button-login {
+  position: absolute;
+  width: 20vh;
+  height: 45px;
+  margin-left: 10vh;
+  margin-top: 5vh;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+}
